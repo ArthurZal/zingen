@@ -32,3 +32,36 @@
     --fs-extra-large: 1.5rem;
     --fs-2extra-large: 2.5rem;
 }
+
+html {
+    font-family: var(--ff-sans);
+    font-weight: var(--fw-base);
+    font-size: var(--fs-base);
+    line-height: 1.6;
+    color: var(--text-color-primary);
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+    color: var(--text-color-primary);
+    font-weight: var(--fw-bold);
+    letter-spacing: -0.04em;
+
+}
+
+h1 {
+    font-size: var(--fs-2extra-large);
+}
+
+h2 {
+    font-size: var(--fs-extra-large);
+}
+
+h3 {
+    font-size: var(--fs-large);
+}
+
