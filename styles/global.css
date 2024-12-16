@@ -65,3 +65,10 @@ h3 {
     font-size: var(--fs-large);
 }
 
+@media (width >= 80em) {
+    :root {
+        --fs-large: 2rem;
+        --fs-extra-large: 3rem;
+        --fs-2extra-large: 4rem;
+    }
+}
